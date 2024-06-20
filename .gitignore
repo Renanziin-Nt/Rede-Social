@@ -1,0 +1,6 @@
+#ignorar o arquivo .env
+.env
+#ignorar a pasta sql
+sql/
+#ignorar a pasta .vscode
+.vscode/
