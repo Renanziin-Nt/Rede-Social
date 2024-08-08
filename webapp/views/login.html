@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/login.css">
+  <title>Rede Social - Login</title>
+</head>
+<body class="bg-dark text-white">
+  <div class="container-login">
+    <div>
+      <form class="rede-form" id="login">
+        <span>Seja bem vindo a Rede Social! </span>
+        <div class="">
+          <input type="email" name="email" id="email" placeholder="Digite o seu email" required="required">
+        </div>
+        <div class="">
+          <input type="password" name="senha" id="senha" placeholder="Digite o seu senha" required="required">
+        </div>
+        <a href="/criar-usuario">Cadastre-se</a>
+        <button type="submit" class="submit">Login</button>
+      </form>
+    </div>
+  </div>
+  {{ template "scripts" }}
+  <script src="/assets//js/login.js"></script>
+</body>
+</html>
